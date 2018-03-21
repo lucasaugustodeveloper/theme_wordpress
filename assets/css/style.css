@@ -4,3 +4,19 @@
 .pesquisa {
     background: dodgerblue;
 }
+
+.menu-principal ul {
+    list-style: none;
+}
+.menu-principal li {
+    display: inline-block;
+    width: 100px;
+}
+.menu-principal a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
