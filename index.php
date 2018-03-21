@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<div class="conteudo">
+<div class="conteudo container">
 	<main>
 		<section class="slide">
 			Slide

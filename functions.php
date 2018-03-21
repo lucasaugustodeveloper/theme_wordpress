@@ -17,3 +17,11 @@ function carrega_scripts() {
     wp_enqueue_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), '3.3.7', true);
 }
 add_action('wp_enqueue_scripts', 'carrega_scripts');
+
+// Function menu
+register_nav_menus(
+    array(
+        'menu-principal' => 'Menu Principal do Topo',
+        'menu-rodape' => 'Menu Secundário do Rodapé'
+    )
+);

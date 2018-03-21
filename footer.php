@@ -6,8 +6,9 @@
  * Time: 13:10
  */
 ?>
-	<footer class="footer">
+	<footer class="footer container-fluid">
 		Footer
 	</footer>
+<?= wp_footer() ?>
 </body>
 </html>
